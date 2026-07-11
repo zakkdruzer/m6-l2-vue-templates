@@ -34,6 +34,12 @@ Cada actividad está implementada como un componente dentro de `src/components/a
      - Empty state cuando no hay tareas.
      - Contador de tareas pendientes usando `filter` directamente en el template.
 
+## Tecnologías utilizadas
+
+- **Vue 3** con Composition API y sintaxis `<script setup>`.
+- **Vite** como bundler y servidor de desarrollo.
+- **Node.js + npm** para la gestión de dependencias y scripts de desarrollo.
+
 ## Cómo ejecutar el proyecto
 
 Para visualizar el proyecto en local:
@@ -64,12 +70,6 @@ Para visualizar el proyecto en local:
 - Todos los componentes usan `<script setup>` (Composition API).  
 - No hay ningún `.value` dentro de los `<template>`.  
 - Cada `v-for` tiene su `:key` único y no usa el índice.  
-- Directivas usadas correctamente: `v-for`, `v-if/v-else-if/v-else`, `v-show`, `v-model`, `v-bind`, eventos `@` (`@click`, `@submit.prevent`).
+- Directivas usadas correctamente: `v-for`, `v-if/v-else-if/v-else`, `v-show`, `v-model`, `v-bind`, eventos `@` (`@click`, `@submit.prevent`).  
 - Código sin `console.log` ni comentarios de debug olvidados.
 - Nombres de variables y funciones claros y consistentes.
-
-## Reflexión
-
-En el README puedes añadir algo como:
-
-> Lo que más me costó fue entender cómo gestionar el estado principal como `ref` con un arreglo de objetos (especialmente en el Gestor de Tareas) y cómo combinar `filter`, `v-for` y `:key` sin romper la reactividad. Esta actividad me ayudó a consolidar el uso de Composition API y las directivas principales de Vue 3.
