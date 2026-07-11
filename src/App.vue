@@ -5,6 +5,7 @@ import FormularioSaludo from './components/actividades/FormularioSaludo.vue';
 import DemoToggle from './components/actividades/DemoToggle.vue';
 import ListaProductos from './components/actividades/ListaProductos.vue';
 import FichaObjeto from './components/actividades/FichaObjeto.vue';
+import GestorTareas from './components/actividades/GestorTareas.vue';
 
 </script>
 
@@ -15,6 +16,7 @@ import FichaObjeto from './components/actividades/FichaObjeto.vue';
   <DemoToggle />
   <ListaProductos />
   <FichaObjeto />
+  <GestorTareas />
 </template>
 
 <style scoped>
