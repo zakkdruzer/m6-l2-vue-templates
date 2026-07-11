@@ -2,6 +2,7 @@
 import TarjetaPerfil from './components/actividades/TarjetaPerfil.vue';
 import ContadorReglas from './components/actividades/ContadorReglas.vue';
 import FormularioSaludo from './components/actividades/FormularioSaludo.vue';
+import DemoToggle from './components/actividades/DemoToggle.vue';
 
 </script>
 
@@ -9,6 +10,7 @@ import FormularioSaludo from './components/actividades/FormularioSaludo.vue';
   <TarjetaPerfil />
   <ContadorReglas />
   <FormularioSaludo />
+  <DemoToggle />
 </template>
 
 <style scoped>
