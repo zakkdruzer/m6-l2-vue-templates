@@ -1,18 +1,10 @@
 <script setup>
-import EncabezadoRecetario from './components/recetario/EncabezadoRecetario.vue';
-import RecetaEnsalada from './components/recetario/RecetaEnsalada.vue';
-import RecetaGalletas from './components/recetario/RecetaGalletas.vue';
-import RecetaPanqueques from './components/recetario/RecetaPanqueques.vue';
-import RecetaSmoothie from './components/recetario/RecetaSmoothie.vue';
+import TarjetaPerfil from './components/actividades/TarjetaPerfil.vue';
 
 </script>
 
 <template>
-  <EncabezadoRecetario />
-  <RecetaEnsalada />
-  <RecetaGalletas />
-  <RecetaPanqueques />
-  <RecetaSmoothie />
+  <TarjetaPerfil />
 </template>
 
 <style scoped>
