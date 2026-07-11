@@ -1,12 +1,14 @@
 <script setup>
 import TarjetaPerfil from './components/actividades/TarjetaPerfil.vue';
 import ContadorReglas from './components/actividades/ContadorReglas.vue';
+import FormularioSaludo from './components/actividades/FormularioSaludo.vue';
 
 </script>
 
 <template>
   <TarjetaPerfil />
   <ContadorReglas />
+  <FormularioSaludo />
 </template>
 
 <style scoped>
