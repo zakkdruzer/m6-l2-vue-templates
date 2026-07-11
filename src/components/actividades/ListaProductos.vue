@@ -37,7 +37,7 @@ const productos = ref([
   margin: 1rem auto;
   padding: 1rem;
   border-radius: 8px;
-  background-color: #020617;
+  background-color: #415199;
   color: #e5e7eb;
 }
 

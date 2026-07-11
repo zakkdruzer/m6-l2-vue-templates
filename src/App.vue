@@ -4,6 +4,7 @@ import ContadorReglas from './components/actividades/ContadorReglas.vue';
 import FormularioSaludo from './components/actividades/FormularioSaludo.vue';
 import DemoToggle from './components/actividades/DemoToggle.vue';
 import ListaProductos from './components/actividades/ListaProductos.vue';
+import FichaObjeto from './components/actividades/FichaObjeto.vue';
 
 </script>
 
@@ -13,6 +14,7 @@ import ListaProductos from './components/actividades/ListaProductos.vue';
   <FormularioSaludo />
   <DemoToggle />
   <ListaProductos />
+  <FichaObjeto />
 </template>
 
 <style scoped>

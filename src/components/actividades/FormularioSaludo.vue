@@ -48,7 +48,7 @@ function enviarSaludo() {
   margin: 1rem auto;
   padding: 1rem;
   border-radius: 8px;
-  background-color: #020617;
+  background-color: #883f55;
   color: #e5e7eb;
 }
 
