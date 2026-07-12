@@ -70,6 +70,4 @@ Para visualizar el proyecto en local:
 
 ## Reflexión
 
-En el README puedes añadir algo como:
-
 > Lo que más me costó fue entender cómo gestionar el estado principal como `ref` con un arreglo de objetos (especialmente en el Gestor de Tareas) y cómo combinar `filter`, `v-for` y `:key` sin romper la reactividad. Esta actividad me ayudó a consolidar el uso de Composition API y las directivas principales de Vue 3.
